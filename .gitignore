@@ -1,0 +1,44 @@
+# .NET build artifacts
+**/bin/
+**/obj/
+**/TestResults/
+artifacts/
+
+# Test coverage
+coverage/
+coverage.cobertura.xml
+coverage.opencover.xml
+*.coverage
+*.coveragexml
+coverage-report/
+.coverage
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# JetBrains Rider
+*.DotSettings.user
+_ReSharper*/
+*.sln.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Local environment
+.env
+.env.*
+!.env.example
